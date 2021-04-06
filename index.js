@@ -19,7 +19,7 @@ module.exports = class extends Page {
             <p>${oEntity.full_description}</p>
             <p>${oEntity.meal_date}</p>
             <p>${oEntity.meal_location}</p>
-            <form action="http://localhost:3001/payment" method="post">
+            <form action="http://localhost:3002/payment" method="post">
             <input type="hidden" value="${oEntity.title}" />
             <input type="tel" placeholder="enter your number" />
             <button type="submit">Order now</button>
